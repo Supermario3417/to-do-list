@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/ToDoList.css">
+    <link rel="shortcut icon" href="img/3417.ico" type="image/x-icon" />
+</head>
+<body>
+    <h1 class="row">3417 To-Do List</h1>
+    <h3>How to use</h3>
+    <p>Enter a value in the box below, then press "Add" to add it to the list. To remove it, click on the item you want removed.</p>
+    <div class="row">
+        <form>
+            <div class="input-group">
+                <input class="inputBox" type="text" placeholder="To Do Item" id="box" style="width: 30vw">
+            </div>
+            <br>
+                <div class="form-group">
+                    <input class="addButton" type="button" value="Add" style="width: 30vw" onclick="addItem()">
+                </div>
+            </br>
+        </form>
+    </div>
+    <div class="row">
+        <ul id="list_item">
+            
+        </ul>
+    </div>
+    <a href="https://supermario3417.github.io/portfolio/">
+        <img src="img/3417-Logo.png" alt="3417 Logo" class="logoImage">
+    </a>
+    <footer>&copy; Copyright 2025 by 3417</footer>
+    <script src="js/ToDoList.js"></script>
+</body>
+</html>
